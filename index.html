@@ -20,16 +20,15 @@
 }
     
 
-   //by me 
-.state--pselected rect {
+    
+.state--psome rect {
   fill: blue;
 }
 
-.state--pselected text {
+.state--psome text {
   fill: black;
 }
     
-    //by me
     
 
 </style>
@@ -49,10 +48,8 @@ HI AK    TX             FL
 
 var states = [],
     selectedStates = ["AK", "NM", "NV", "TN"];
+    psomeStates = ["ME", "NH"];
     
-    
-    var states = [],
-    pselectedStates = ["ME"];
 
 d3.select("#grid").text().split("\n").forEach(function(line, i) {
   var re = /\w+/g, m;

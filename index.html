@@ -21,18 +21,13 @@
     
 
     
-.state--psome rect {
-  fill: blue;
-}
 
-.state--psome text {
-  fill: black;
-}
-    
     
 
 </style>
-<svg width="960" height="500"></svg>
+<svg width="1000" height="1000"></svg>
+
+
 <script id="grid" type="text/plain">
                               ME
                WI          VT NH
@@ -48,7 +43,7 @@ HI AK    TX             FL
 
 var states = [],
     selectedStates = ["AK", "NM", "NV", "TN"];
-    psomeStates = ["ME", "NH"];
+   
     
 
 d3.select("#grid").text().split("\n").forEach(function(line, i) {
